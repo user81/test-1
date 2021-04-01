@@ -1,5 +1,6 @@
 <?php
 
+require_once './vendor/autoload.php';
 use application\core\Router;
 
 spl_autoload_register(function ($class) {

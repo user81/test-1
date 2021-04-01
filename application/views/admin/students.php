@@ -12,7 +12,7 @@
         <th>Faculty</th>
         <th colspan="2" style="text-align: center;">Action</th>
       </tr>
-      <?foreach ($students as $value): ?>
+      <? foreach ($students as $value): ?>
         <tr>
           <td><?= $value['id']; ?></td>
           <td nowrap><?= htmlspecialchars($value['name'], ENT_QUOTES); ?></td>
