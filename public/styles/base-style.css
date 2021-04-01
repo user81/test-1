@@ -1,0 +1,36 @@
+body {
+    background: #1d1a1a;
+    color: darkgrey;
+}
+.header {
+    padding: 20px 0;
+}
+.container {
+    height: calc(100vh - 242px);
+    padding: 0 20px 0 20px;
+}
+
+.user, .add-from>form{
+    max-width: 600px;
+}
+
+.btn-authorize, .add-from {
+    width: 100%;
+}
+
+.table-dark {
+    text-align: center;
+}
+
+.add-from>form {
+    margin: 0 auto;
+}
+
+#toast-container {
+    position: fixed;
+    width: 100%;
+    top: 63px;
+}
+.alert {
+    margin: 0 auto;
+}
